@@ -1,0 +1,44 @@
+Unity Sources 
+---------------------------------------------
+Audio - https://pixabay.com/
+---------------------------------------------
+Licence: Free Download
+Game Music - 8 Bit Retro Game Music
+
+Assets - https://assetstore.unity.com/
+---------------------------------------------
+- THREEBOX: Match 3D Object Pack: Fruits
+    - Strawberry asset used to score points. The dog picks this up throughout his journey and the score increases.
+- ALIGNED GAMES: Polygonal Foliage Asset Pack
+    - The variety of tree assets along with the foliage was placed for map design. The objective of the map was to create the appearance of a forest. The Cliff assets were also used to create a border like  cliff area around the forest the gameplay takes place.
+- RENDER KNIGHT: Fantasy SkyBox FREE
+https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
+    - This asset was used to for the map background which was a sky.
+    
+- Unity Challenge 2: Play Fetch
+   https://learn.unity.com/project/unit-2-basic-gameplay?courseId=5cf96c41edbc2a2ca6e8810f
+    - The grass asset was used as the ground , used the Dog asset as the player for the game.
+
+Map Design - https://assetstore.unity.com/
+-------------------------------------------
+Prefabs - https://learn.unity.com/ 
+https://learn.unity.com/project/unit-2-basic-gameplay?courseId=5cf96c41edbc2a2ca6e8810f (Challenge 2)
+Dog (Player)
+Farmer (Owner)
+--------------------------------
+Scripts - https://learn.unity.com/  (Challenge 2 & 5)
+-------------------------------------------------
+DetectCollisions.cs - Strawberries are detected by the dog and updates score by 5
+
+DogCollision.cs  - Collisions between the Player and Obstacles and calls the "Game Restart " Method when Dog respawns back in position
+
+FollowPlayer.cs - The direction of the camera facing the Player from behind, making the camera look down on the player
+
+GameManager.cs - Includes the Text UI elements for Score, Game Restart and You Win texts, Game Restart text appears when collision occurs with the Dog and Obstacle and 2 second delay. YouWin text appears when player reaches the farmer by distance 
+
+PlayerController.cs - Direction and speed of the Dog, making the player go left and right and forward.
+
+
+
+ 
+
